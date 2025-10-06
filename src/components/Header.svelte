@@ -2,7 +2,7 @@
 	import NavBar from './NavBar.svelte';
 </script>
 
-<header class="shadow-md">
+<header class="fixed z-10 w-full bg-white shadow-md">
 	<section class="bg-[#2a6be1] p-2">
 		<div
 			class="flex flex-col items-center justify-between px-10 font-semibold text-white md:flex-row"
