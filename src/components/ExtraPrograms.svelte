@@ -1,5 +1,6 @@
 <script>
 	import ExtraProgramesCard from './ExtraProgramesCard.svelte';
+	import SectionHeader from './SectionHeader.svelte';
 	import image from '$lib/assets/images/473566276_1185590823278215_4078071514193835889_n.jpg';
 
 	const programs = [
@@ -25,16 +26,7 @@
 </script>
 
 <section class="mt-20">
-	<div class="flex items-start justify-start gap-5 px-14 py-5 text-3xl">
-		<h2>Extracurricular</h2>
-		<div class="grid h-[50px] w-[50px] grid-cols-2">
-			<div class="h-[10px] w-[10px] rounded-full bg-[#2a6be1]"></div>
-			<div class="h-[10px] w-[10px] rounded-full bg-[#2a6be1]"></div>
-			<div class="h-[10px] w-[10px] rounded-full bg-[#2a6be1]"></div>
-			<div class="h-[10px] w-[10px] rounded-full bg-[#2a6be1]"></div>
-		</div>
-	</div>
-
+	<SectionHeader title={'Extracurricular'} />
 	<div
 		class="container mx-auto grid grid-cols-1 place-items-center gap-8 py-5 sm:grid-cols-2 md:grid-cols-3"
 	>

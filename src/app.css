@@ -33,3 +33,27 @@ h6 {
 .hero-text-shadow {
 	text-shadow: 2px 2px 2px #333;
 }
+
+.white-heaing {
+	color: white !important;
+}
+
+.more-progrms-bg-1 {
+	background:
+		linear-gradient(hsla(219, 75%, 52%, 0.8), hsla(219, 75%, 52%, 0.8)),
+		url('./lib/assets/images/475767421_1197256408778323_6528258560486459493_n.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.more-progrms-bg-2 {
+	background: url('./lib/assets/images/475487953_1197096205461010_3244279295240044768_n.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.customList {
+	list-style-image: url('./lib/assets/images/list_mark/checklist-finish-race-line-svgrepo-com.svg');
+}

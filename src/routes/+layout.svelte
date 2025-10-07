@@ -13,4 +13,5 @@
 
 <!-- Primary color: #2a6be1 -->
 <!-- Secondary color: #cb0101 -->
+<!-- Accent color: #d9bf2b -->
 <!-- Background color: #ffffff -->
