@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class="flex inline-block items-start bg-gradient-to-bl from-[#2a6be1] to-[#cb0101] bg-clip-text text-8xl font-bold font-extrabold text-transparent"
+	class="flex inline-block items-start bg-gradient-to-bl from-[#2a6be1] to-[#cb0101] bg-clip-text font-bold font-extrabold text-transparent md:text-8xl"
 >
 	<Countup {initial} {value} {step} {duration} format={true} />
 	<span class="self-center">+</span>

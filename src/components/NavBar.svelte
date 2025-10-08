@@ -31,7 +31,7 @@
 			</li>
 			<li>
 				<a
-					href="/admissions"
+					href="/admission"
 					class="hover:before:content-[' '] relative px-4 py-8 text-lg text-[#2a6be1] before:absolute before:top-[70%] before:left-0 before:block before:h-1 before:w-0 before:transform before:rounded-4xl before:bg-[#2a6be1] before:bg-[#cb0101] before:opacity-0 before:transition-all before:duration-300 hover:text-[#cb0101] hover:before:w-full hover:before:opacity-100"
 					>Admissions</a
 				>
