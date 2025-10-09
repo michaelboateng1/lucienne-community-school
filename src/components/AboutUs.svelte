@@ -7,7 +7,9 @@
 
 <section class="container mx-auto mt-24 flex justify-between py-5">
 	<div>
-		<SectionHeader title={'About us'} />
+		<SectionHeader>
+			<h2 class="pl-10 capitalize sm:pl-14">About us</h2>
+		</SectionHeader>
 		<p class=" px-10 md:px-14">
 			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, libero! Dicta, perspiciatis
 			autem. Reprehenderit eum deleniti fuga doloremque. Rem exercitationem atque facilis

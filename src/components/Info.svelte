@@ -4,9 +4,9 @@
 </script>
 
 <main
-	class=" mt-[100px] flex min-h-screen w-full flex-col justify-between px-5 py-20 text-xl sm:px-10 md:flex-row"
+	class=" mt-[100px] flex min-h-screen w-full flex-col justify-between px-5 py-20 sm:px-10 md:flex-row"
 >
-	<div class="flex h-auto w-full flex-col justify-between drop-shadow-2xl md:py-24">
+	<div class="flex h-auto w-full flex-col justify-between drop-shadow-2xl md:gap-20 md:py-24">
 		<img src={Image1} alt="Our Students" class="h-auto w-full rounded-2xl object-cover" />
 		<img
 			src={Image2}

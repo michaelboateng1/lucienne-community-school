@@ -21,7 +21,9 @@
 </script>
 
 <Info {Image1} {Image2}>
-	<SectionHeader title={'About Our Academics'} />
+	<SectionHeader>
+		<h1 class="pl-10 capitalize sm:pl-14">About Our Academics</h1>
+	</SectionHeader>
 	<section class="space-y-2 sm:px-14">
 		<p>
 			At <span

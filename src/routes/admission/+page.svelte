@@ -40,7 +40,9 @@
 
 <Info {Image1} {Image2}>
 	<div class="hidden sm:block">
-		<SectionHeader title={'Get Your Child Admitted Today'} />
+		<SectionHeader>
+			<h1 class="pl-10 capitalize sm:pl-14">Get Your Child Admitted Today</h1>
+		</SectionHeader>
 	</div>
 	<section class="space-y-2 sm:px-14">
 		<h3>Admission Process</h3>

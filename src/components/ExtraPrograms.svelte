@@ -26,7 +26,9 @@
 </script>
 
 <section class="mt-20 px-5">
-	<SectionHeader title={'Extracurricular'} />
+	<SectionHeader>
+		<h2 class="pl-5 sm:pl-10">Extracurricular</h2>
+	</SectionHeader>
 	<div
 		class="container mx-auto grid grid-cols-1 place-items-center gap-8 py-5 sm:grid-cols-2 md:grid-cols-3"
 	>
