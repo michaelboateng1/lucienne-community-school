@@ -77,31 +77,6 @@
 </section>
 
 <style>
-	.custom-list {
-		list-style: none;
-		padding-left: 0;
-	}
-
-	.custom-list li {
-		position: relative;
-		padding-left: 2rem; /* space for the marker */
-		margin-bottom: 0.5rem;
-	}
-
-	.custom-list li::before {
-		content: '';
-		position: absolute;
-		left: 0;
-		top: 50%;
-		transform: translateY(-50%);
-		width: 1rem;
-		height: 1rem;
-		background-image: var(--list-image);
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-
 	.gradient-border {
 		background: linear-gradient(to bottom left, #d9bf2b, #cb0101);
 	}
