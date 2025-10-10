@@ -2,6 +2,14 @@
 	import SectionHeader from '../../components/SectionHeader.svelte';
 </script>
 
+<svelte:head>
+	<title>Contact Lucienne Community School – We’d Love to Hear From You</title>
+	<meta
+		name="description"
+		content="Get in touch with Lucienne Community School for inquiries, admissions, or partnerships. Let’s shape a brighter future together."
+	/>
+</svelte:head>
+
 <main class="mt-[130px] min-h-screen py-10">
 	<section class="mx-auto rounded-xl bg-white p-10 pt-5 drop-shadow-2xl md:w-[800px]">
 		<SectionHeader>

@@ -38,6 +38,14 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Admission – Join Lucienne Community School</title>
+	<meta
+		name="description"
+		content="Begin your child’s journey of discovery and excellence. Learn about our admission process, entry requirements, and how to become part of the Lucienne family."
+	/>
+</svelte:head>
+
 <Info {Image1} {Image2}>
 	<div class="hidden sm:block">
 		<SectionHeader>

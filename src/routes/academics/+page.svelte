@@ -20,6 +20,14 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Academics at Lucienne – GES + Cambridge with Smart Learning</title>
+	<meta
+		name="description"
+		content="Explore Lucienne’s academic excellence through the GES and Cambridge systems, enriched with Coding, Abacus, and Robotics to prepare learners for the digital era."
+	/>
+</svelte:head>
+
 <Info {Image1} {Image2}>
 	<SectionHeader>
 		<h1 class="pl-10 capitalize sm:pl-14">About Our Academics</h1>

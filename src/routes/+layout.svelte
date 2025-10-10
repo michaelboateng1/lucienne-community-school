@@ -9,6 +9,11 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<title>Lucienne Community School – Inspiring Minds, Building the Future</title>
+	<meta
+		name="description"
+		content="Welcome to Lucienne Community School, where curiosity meets creativity. We offer GES + Cambridge programs with Coding, Abacus, and Robotics training from SmartTribe to nurture tomorrow’s innovators."
+	/>
 </svelte:head>
 
 <Header />
