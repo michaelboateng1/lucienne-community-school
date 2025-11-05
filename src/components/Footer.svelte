@@ -1,6 +1,6 @@
 <footer>
 	<div
-		class=" flex flex-col gap-8 bg-[#2a6be1] px-10 py-20 text-white sm:flex-row sm:flex-wrap sm:px-20 md:justify-evenly"
+		class=" flex flex-col gap-8 bg-[#2a6be1] px-10 py-20 text-white sm:flex-row flex-wrap sm:px-20 justify-between lg:justify-evenly"
 	>
 		<div>
 			<section>
@@ -25,7 +25,7 @@
 					<li><a href="/">Home</a></li>
 					<li><a href="/about">About</a></li>
 					<li><a href="/contact">Contact</a></li>
-					<li><a href="/admisson">Admissions</a></li>
+					<li><a href="/admission">Admissions</a></li>
 				</ul>
 			</section>
 		</div>
@@ -49,7 +49,7 @@
 			</section>
 		</div>
 	</div>
-	<p class="bg-[#2a6be1] py-2 text-center text-lg font-semibold text-white">
+	<p class="bg-[#2a6be1] py-2 text-center sm:text-lg font-semibold text-white">
 		Copyright &copy;2025 All rights reserved.
 	</p>
 </footer>

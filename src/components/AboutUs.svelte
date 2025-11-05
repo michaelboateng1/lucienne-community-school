@@ -22,7 +22,7 @@
 			<li>Lorem, ipsum dolor.</li>
 		</ul>
 
-		<div class="mt-10 flex flex-wrap items-center justify-start gap-20 px-10 py-2 md:px-14">
+		<div class="mt-10 flex flex-wrap items-center justify-center sm:justify-start gap-20 px-10 py-2 md:px-14">
 			<div
 				class="gradient-border w-[150px] rounded-lg p-0.5 transition-all duration-300 hover:shadow-xl"
 			>

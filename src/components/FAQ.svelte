@@ -40,11 +40,11 @@
 	const closeStyle = 'opacity-0 max-h-0 py-0 overflow-hidden px-5 transition-all duration-300';
 </script>
 
-<section class="container mx-auto py-20 md:w-[800px]">
+<section class="container mx-auto py-20 px-5 md:w-[800px]">
 	{#each faq as qts, i}
-		<div class="mt-10 rounded-xl border-t-8 border-[#cb0101] shadow-sm">
+		<div class="mt-10 rounded-xl border-t-4 border-[#cb0101] shadow-sm">
 			<div
-				class="flex cursor-pointer items-center justify-between px-5 py-6 text-xl font-semibold"
+				class="flex cursor-pointer items-center justify-between px-5 py-6 sm:text-xl font-semibold"
 				onclick={() => toggleFAQ(i)}
 			>
 				<h3>{qts.title}</h3>

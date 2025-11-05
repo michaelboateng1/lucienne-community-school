@@ -4,7 +4,7 @@
 </script>
 
 <section class="mt-28 text-white md:flex">
-	<div class="more-progrms-bg-1 py-20 pr-10 pl-20 md:w-[60%]">
+	<div class="more-progrms-bg-1 py-20 px-5 sm:pr-10 sm:pl-20 md:w-[60%]">
 		<h2 class="white-heaing mb-5 text-3xl font-bold">Most Popular Programs</h2>
 		<p>
 			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, delectus quam. Eos
@@ -12,7 +12,7 @@
 			quos, quae unde in sunt.
 		</p>
 
-		<div class="mt-14 grid grid-cols-2 gap-8 sm:grid-cols-2 md:grid-cols-2">
+		<div class="mt-14 grid gap-8 sm:grid-cols-2">
 			<section>
 				<div class="w-[100px]">
 					<img

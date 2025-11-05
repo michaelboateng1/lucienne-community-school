@@ -10,13 +10,13 @@
 	/>
 </svelte:head>
 
-<main class="mt-[130px] min-h-screen py-10">
-	<section class="mx-auto rounded-xl bg-white p-10 pt-5 drop-shadow-2xl md:w-[800px]">
+<main class="mt-[130px] min-h-screen px-5 py-10">
+	<section class="mx-auto rounded-xl bg-white p-10 pt-5 drop-shadow-2xl lg:w-[800px]">
 		<SectionHeader>
 			<h1 class="capitalize">Contact us</h1>
 		</SectionHeader>
 		<form class="mt-5 space-y-7 pb-5">
-			<div class="flex gap-8">
+			<div class="flex flex-col sm:flex-row sm:gap-8 space-y-7 sm:space-y-0">
 				<input type="text" placeholder="First Name" />
 				<input type="text" placeholder="Last Name" />
 			</div>
@@ -28,7 +28,7 @@
 				<textarea placeholder="Message"></textarea>
 			</div>
 			<div>
-				<button type="submit" class="cursor-pointer px-5 py-2 transition-all duration-300"
+				<button type="submit" class="cursor-pointer w-full sm:w-auto font-bold px-5 py-2 transition-all duration-300"
 					>Submit</button
 				>
 			</div>
