@@ -4,7 +4,21 @@
 	import Header from '../components/Header.svelte';
 	import Footer from '../components/Footer.svelte';
 
+	import { onMount } from 'svelte';
+	import AOS from 'aos';
+	import 'aos/dist/aos.css';
+	import '../app.css';
+
 	let { children } = $props();
+
+	onMount(() => {
+		AOS.init({
+			duration: 800,
+			easing: 'ease-in-out',
+			once: true,
+			offset: 100
+		});
+	});
 </script>
 
 <svelte:head>
