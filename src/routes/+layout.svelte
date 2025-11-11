@@ -1,8 +1,9 @@
 <script>
 	import '../app.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/images/school-logo.jpg';
 	import Header from '../components/Header.svelte';
 	import Footer from '../components/Footer.svelte';
+	import AIAgent from '../components/AIAgent.svelte';
 
 	import { onMount } from 'svelte';
 	import AOS from 'aos';
@@ -31,6 +32,7 @@
 </svelte:head>
 
 <Header />
+<AIAgent />
 {@render children?.()}
 <Footer />
 
