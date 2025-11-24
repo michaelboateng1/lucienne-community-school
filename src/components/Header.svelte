@@ -1,4 +1,5 @@
 <script>
+	import MobileNav from './MobileNav.svelte';
 	import NavBar from './NavBar.svelte';
 </script>
 
@@ -13,3 +14,5 @@
 	</section>
 	<NavBar />
 </header>
+
+<MobileNav />

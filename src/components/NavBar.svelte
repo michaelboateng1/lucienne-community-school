@@ -1,4 +1,5 @@
 <script>
+	import mobileNav from "../store/store";
 	import logo from '$lib/assets/images/school-logo.jpg';
 </script>
 
@@ -9,8 +10,13 @@
 		</div>
 	</a>
 
-	<div class="md:hidden">
-		<i class="fa-solid fa-bars text-2xl text-[#2a6be1]"></i>
+	<div class="md:hidden" onclick={() => $mobileNav = !$mobileNav} onkeydown={() => $mobileNav = !$mobileNav} role="button" tabindex="0" >
+		{#if $mobileNav}
+			<i class="fa-solid fa-close text-2xl text-[#2a6be1] transition-opacity duration-1000"></i>
+		{/if}
+		{#if !$mobileNav}
+			<i class="fa-solid fa-bars text-2xl text-[#2a6be1] transition-opacity duration-1000"></i>
+		{/if}
 	</div>
 
 	<nav class="hidden md:block">
