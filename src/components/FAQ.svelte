@@ -32,7 +32,6 @@
 	];
 
 	const toggleFAQ = (i) => {
-		console.log(i, open);
 		open = open === i ? null : i;
 	};
 
