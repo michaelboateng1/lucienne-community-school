@@ -55,7 +55,7 @@
 </svelte:head>
 
 <main class="mt-[130px] min-h-screen px-5 py-10">
-	<section class="mx-auto rounded-xl bg-white p-10 pt-5 drop-shadow-2xl lg:w-[800px]">
+	<section class="mx-auto rounded-xl bg-white p-10 pt-5 drop-shadow-2xl lg:w-[800px]" data-aos="zoom-in">
 		<SectionHeader>
 			<h1 class="capitalize">Contact us</h1>
 		</SectionHeader>

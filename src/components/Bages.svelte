@@ -24,7 +24,7 @@
 </script>
 
 <div class="mt-10 flex flex-wrap items-center justify-center gap-8 p-10 sm:flex-row">
-	{#each bages as item}
-		<BageCard {item} />
+	{#each bages as item, i}
+		<BageCard {item} {i} />
 	{/each}
 </div>

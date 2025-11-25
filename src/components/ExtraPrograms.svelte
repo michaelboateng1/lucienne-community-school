@@ -32,8 +32,8 @@
 	<div
 		class="container mx-auto grid grid-cols-1 place-items-center gap-8 py-5 sm:grid-cols-2 md:grid-cols-3"
 	>
-		{#each programs as program}
-			<ExtraProgramesCard {program} />
+		{#each programs as program, i}
+			<ExtraProgramesCard {program} {i} />
 		{/each}
 	</div>
 </section>

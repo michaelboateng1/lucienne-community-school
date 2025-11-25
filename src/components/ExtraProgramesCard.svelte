@@ -1,8 +1,10 @@
 <script>
 	export let program;
+	export let i;
 </script>
 
-<section class="rounded-br-xl rounded-bl-xl shadow-md">
+<section data-aos="zoom-in"
+data-aos-delay={i + 150} class="rounded-br-xl rounded-bl-xl shadow-md">
 	<div>
 		<img
 			src={program.image_url}

@@ -13,7 +13,7 @@
 		</p>
 
 		<div class="mt-14 grid gap-8 sm:grid-cols-2">
-			<section>
+			<section data-aos="fade-in">
 				<div class="w-[100px]">
 					<img
 						src={smartTribeLogo}
@@ -25,7 +25,7 @@
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, maiores.</p>
 			</section>
 
-			<section>
+			<section data-aos="fade-in">
 				<div class="w-[100px]">
 					<img src={smartTribeLogo} alt="Smart Tribe Logo" class="h-full w-full object-cover" />
 				</div>
@@ -33,7 +33,7 @@
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, maiores.</p>
 			</section>
 
-			<section>
+			<section data-aos="fade-in">
 				<div class="w-[100px]">
 					<img src={smartTribeLogo} alt="Smart Tribe Logo" class="h-full w-full object-cover" />
 				</div>

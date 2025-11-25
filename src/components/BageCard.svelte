@@ -1,12 +1,14 @@
 <script>
 	export let item;
+	export let i;
 </script>
 
 <section
 	class="flex h-[100px] w-full items-center gap-5 rounded-xl px-3 py-3 transition-all duration-300 hover:scale-x-[1.1] hover:transform hover:drop-shadow-xl sm:w-[350px] sm:gap-5 sm:px-5"
 	style="background: {item.bg};"
+	data-aos="fade-up"
+	data-aos-delay={i + 150}
 >
-	<!-- Slot: if no content is provided, render a default icon using item.icon -->
 	<slot>
 		{#if item.icon}
 			<div class="rounded-full bg-white px-2 py-3">

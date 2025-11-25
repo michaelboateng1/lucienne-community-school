@@ -7,8 +7,8 @@
 	class=" mt-[100px] flex min-h-screen w-full flex-col justify-between px-5 py-20 sm:px-10 md:flex-row"
 >
 	<div class="flex h-auto w-full flex-col justify-between drop-shadow-2xl md:gap-20 md:py-24">
-		<img src={Image1} alt="Our Students" class="h-auto w-full rounded-2xl object-cover" />
-		<img
+		<img src={Image1} alt="Our Students" class="h-auto w-full rounded-2xl object-cover" data-aos="fade-right" data-aos-delay="150" />
+		<img data-aos="fade-up" data-aos-delay="200"
 			src={Image2}
 			alt="Our Students"
 			class="hidden h-auto w-full rounded-2xl object-cover md:block"

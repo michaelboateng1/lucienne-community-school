@@ -8,6 +8,7 @@
 			accusantium amet eius modi fuga hic nostrum.
 		</p>
 		<a
+			data-aos="fade-in"
 			href="/contact"
 			class=" mx-auto mt-10 block sm:w-[200px] rounded-2xl bg-[#cb0101] py-2 px-5 sm:px-8 sm:py-3 text-center text-2xl font-semibold text-white capitalize transition-all duration-300 hover:shadow-2xl"
 			>enroll now</a

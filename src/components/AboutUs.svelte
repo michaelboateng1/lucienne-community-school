@@ -23,7 +23,7 @@
 		</ul>
 
 		<div class="mt-10 flex flex-wrap items-center justify-center sm:justify-start gap-20 px-10 py-2 md:px-14">
-			<div
+			<div data-aos="fade-up" data-aos-delay="150"
 				class="gradient-border w-[150px] rounded-lg p-0.5 transition-all duration-300 hover:shadow-xl"
 			>
 				<div class="rounded-md px-3 py-5">
@@ -38,7 +38,7 @@
 				</div>
 			</div>
 
-			<div
+			<div data-aos="fade-up"	data-aos-delay="200"
 				class="gradient-border w-[150px] rounded-lg p-0.5 transition-all duration-300 hover:shadow-xl"
 			>
 				<div class="rounded-md px-3 py-5">
@@ -53,7 +53,7 @@
 				</div>
 			</div>
 
-			<div
+			<div data-aos="fade-up" data-aos-delay="250"
 				class="gradient-border w-[150px] rounded-lg p-0.5 transition-all duration-300 hover:shadow-xl"
 			>
 				<div class="rounded-md px-3 py-5">
@@ -69,7 +69,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="hidden drop-shadow-lg sm:block">
+	<div data-aos="fade-in" class="hidden drop-shadow-lg sm:block">
 		<img
 			src={AboutImage}
 			alt="About Us"
