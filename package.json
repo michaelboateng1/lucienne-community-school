@@ -42,7 +42,6 @@
 		"@google/genai": "^1.29.0",
 		"@modelcontextprotocol/sdk": "^1.22.0",
 		"aos": "^2.3.4",
-		"gsap": "^3.13.0",
 		"nodemailer": "^7.0.10",
 		"svelte-countup": "^0.2.8"
 	}
